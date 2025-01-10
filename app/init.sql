@@ -6,9 +6,9 @@ CREATE TABLE users (
     name VARCHAR(100) NOT NULL,
     lastname VARCHAR(100) NOT NULL,
     gender ENUM('M','F') NOT NULL,
-    birthday DATE() NOT NULL,
+    birthday DATE NOT NULL,
     password VARCHAR(255) NOT NULL,
-    staste BOOLEAN  NULL DEFAULT true,
+    state BOOLEAN  NULL DEFAULT true,
 );
 
 
