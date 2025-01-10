@@ -14,7 +14,7 @@ Este proyecto utiliza PHP y Bootstrap para crear una aplicación web sencilla.
 
 ## Uso
 
-Para ejecutar el proyecto, abre una terminal y ejecuta el siguiente comando:
+Para ejecutar el proyecto y que los servicios funcionen, abre una terminal y ejecuta el siguiente comando:
 
 ```bash
 php -S localhost:8000 -t public
